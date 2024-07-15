@@ -1,36 +1,74 @@
+CREATE TABLE Inventory( 
+item_id INT IDENTITY(1,1) PRIMARY KEY,
+product_name VARCHAR (20) NOT NULL, 
+stock_level INT
+);
+
+INSERT INTO Inventory (product_name, stock_level) VALUES ('ABC',8), ('XYZ',7),('ASD',9);
+select * from Inventory;
+
 CREATE TABLE Sales ( 
-SaleID INT PRIMARY KEY, 
-ProductID INT, 
-SaleDate DATE, 
-SaleAmount DECIMAL(10, 2) 
+sale_id INT IDENTITY(1,1) PRIMARY KEY,
+item_id INT FOREIGN KEY(item_id) REFERENCES Inventory(item_id),
+sale_date DATE,
+quantity_sold INT
 );
-INSERT INTO Sales (SaleID, ProductID, SaleDate, SaleAmount) VALUES (1, 101, '2024-01-01', 150.00), (2, 102, '2024-01-03', 200.00), (3, 101, '2024-01-07', 100.00), (4, 103, '2024-01-10', 250.00), (5, 102, '2024-01-15', 300.00);
+
+INSERT INTO Sales(item_id,sale_date,quantity_sold) VALUES (1,'2024-11-09',234), (2,'2024-11-08',524), (3,'2024-11-07',744);
 select * from Sales;
-SELECT AVG(SaleAmount) AS AverageSaleAmount FROM Sales;
 
-SELECT ProductID, MAX(SaleAmount) AS MaxSaleAmount FROM Sales GROUP BY ProductID; 
+SELECT i.product_name, i.stock_level - COALESCE (SUM (s.quantity_sold), 0) AS remaining_stock 
+FROM Inventory i 
+LEFT JOIN Sales s ON i.item_id = s.item_id 
+GROUP BY i.product_name, i.stock_level;
 
-SELECT YEAR(SaleDate) AS Year, MONTH(SaleDate) AS Month, COUNT(*) AS SalesCount FROM Sales GROUP BY YEAR(SaleDate), MONTH(SaleDate); 
-
-CREATE TABLE Products ( 
-ProductID INT PRIMARY KEY, 
-ProductName VARCHAR(100)
+CREATE TABLE Flights (
+flight_id INT IDENTITY (1,1) PRIMARY KEY, 
+item_id INT,
+airline VARCHAR(20),
+departure_date DATE,
+arrival_date DATE
 );
 
-INSERT INTO Products (ProductID, ProductName) VALUES (101, 'Product A'), (102, 'Product B'), (103, 'Product C'), (104, 'Product D'); 
+INSERT INTO Flights (item_id, airline, departure_date, arrival_date) VALUES (201, 'INDIGO', '2024-11-24','2024-11-24'), (207, 'AIRAKASH', '2024-11-24','2024-11-24'), (208, 'AIRINDIA', '2024-11-24','2024-11-24');
+select * from Flights;
 
-select * from Products;
+CREATE TABLE Passengers (
+passenger_id INT,
+name VARCHAR(20),
+flight_id INT,
+FOREIGN KEY (flight_id) REFERENCES Flights (flight_id)
+);
 
-SELECT p.ProductID, p.ProductName FROM Products p LEFT JOIN Sales s ON p.ProductID = s.ProductID WHERE s.SaleID IS NULL; 
+INSERT INTO Passengers (passenger_id, name, flight_id) VALUES (101, 'SWATI', 1), (101, 'SANDHYA', 2), (101, 'SUSHREE', 3);
+select * from Passengers;
 
-SELECT ProductID, SUM(SaleAmount) AS TotalSalesAmount FROM Sales GROUP BY ProductID;
 
-SELECT * FROM Sales WHERE DATEPART(WEEKDAY, SaleDate) IN (1, 7); 
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(50),
+    signup_date DATE
+);
+INSERT INTO Users (user_id, username, signup_date) VALUES (1, 'miu', '2023-07-12'), (2, 'adi', '2023-08-13'), (3, 'subha', '2023-09-16');
+select * from Users;
 
-SELECT SaleID, ProductID, SaleAmount, RANK() OVER (ORDER BY SaleAmount DESC) AS SaleRank FROM Sales; 
+CREATE TABLE Posts (
+    post_id INT PRIMARY KEY,
+    user_id INT,
+    post_date DATE,
+    content TEXT,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
 
-SELECT TOP 3 SaleID, ProductID, SaleAmount FROM Sales ORDER BY SaleAmount DESC; 
+INSERT INTO Posts (post_id, user_id, post_date, content) VALUES (1, 1, '2023-05-11', 'Hello'), (2, 2, '2023-06-20', 'Hii'), (3, 3, '2023-07-05', 'Say');
+select * from Posts;
 
-WITH YearlySales AS ( SELECT YEAR(SaleDate) AS Year, SUM(SaleAmount) AS TotalSales FROM Sales GROUP BY YEAR(SaleDate) ) SELECT Year, TotalSales, LAG(TotalSales) OVER (ORDER BY Year) AS PreviousYearSales, (TotalSales - LAG(TotalSales) OVER (ORDER BY Year)) / LAG(TotalSales) OVER (ORDER BY Year) * 100 AS SalesGrowth FROM YearlySales;
-
-SELECT ProductID, SaleDate, SaleAmount, COUNT(*) AS Count FROM Sales GROUP BY ProductID, SaleDate, SaleAmount HAVING COUNT(*) > 1; 
+CREATE TABLE Likes (
+    like_id INT PRIMARY KEY,
+    post_id INT,
+    user_id INT,
+    FOREIGN KEY (post_id) REFERENCES Posts(post_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
+INSERT INTO Likes (like_id, post_id, user_id) VALUES (1, 1, 2),  (2, 1, 3),  (3, 2, 1),  (4, 3, 2);
+select * from Likes;
