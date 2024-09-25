@@ -1,0 +1,14 @@
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\CodefirstAssignment.exe.config
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\CodefirstAssignment.exe
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\CodefirstAssignment.pdb
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.csproj.AssemblyReference.cache
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.csproj.CoreCompileInputs.cache
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.exe
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.pdb
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\EntityFramework.dll
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\EntityFramework.xml
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\Codefirs.FD4F2174.Up2Date
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.Migrations.mySchema1.resources
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\CodefirstAssignment\obj\Debug\CodefirstAssignment.csproj.GenerateResource.cache

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Book)">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="Bookid" ColumnName="Bookid" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PYear" ColumnName="PYear" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

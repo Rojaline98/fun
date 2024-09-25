@@ -1,0 +1,7 @@
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\obj\Debug\ModelfirstDemo.csproj.AssemblyReference.cache
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\obj\Debug\ModelfirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\bin\Debug\ModelfirstDemo.exe.config
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\bin\Debug\ModelfirstDemo.exe
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\bin\Debug\ModelfirstDemo.pdb
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\obj\Debug\ModelfirstDemo.exe
+C:\Users\rojaline.chhotara\source\repos\Adonetdemo\ModelfirstDemo\obj\Debug\ModelfirstDemo.pdb
