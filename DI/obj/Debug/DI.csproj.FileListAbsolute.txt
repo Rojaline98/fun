@@ -1,0 +1,14 @@
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\DI.exe.config
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\DI.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\DI.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DI\obj\Debug\DI.csproj.AssemblyReference.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DI\obj\Debug\DI.csproj.CoreCompileInputs.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DI\obj\Debug\DI.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DI\obj\Debug\DI.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\Unity.Abstractions.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\Unity.Container.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\Unity.Abstractions.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DI\bin\Debug\Unity.Container.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DI\obj\Debug\DI.csproj.Up2Date

@@ -1,0 +1,12 @@
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\DIAssignment.exe.config
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\DIAssignment.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\DIAssignment.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\obj\Debug\DIAssignment.csproj.AssemblyReference.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\obj\Debug\DIAssignment.csproj.CoreCompileInputs.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\obj\Debug\DIAssignment.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\obj\Debug\DIAssignment.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\EntityFramework.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\EntityFramework.xml
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment\obj\Debug\DIAssign.1A2B44FD.Up2Date

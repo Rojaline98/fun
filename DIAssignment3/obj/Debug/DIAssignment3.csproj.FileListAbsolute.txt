@@ -1,0 +1,14 @@
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\DIAssignment3.exe.config
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\DIAssignment3.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\DIAssignment3.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\Unity.Abstractions.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\Unity.Container.dll
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\Unity.Abstractions.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\bin\Debug\Unity.Container.pdb
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\obj\Debug\DIAssignment3.csproj.AssemblyReference.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\obj\Debug\DIAssignment3.csproj.CoreCompileInputs.cache
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\obj\Debug\DIAssign.60A42F7B.Up2Date
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\obj\Debug\DIAssignment3.exe
+C:\Users\rojaline.chhotara\source\repos\DI\DIAssignment3\obj\Debug\DIAssignment3.pdb
