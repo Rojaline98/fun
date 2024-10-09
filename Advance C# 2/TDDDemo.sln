@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDDemo", "TDDDemo\TDDDemo.csproj", "{BAF221B8-C4E0-4814-8B5F-B502924DA9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDlib", "TDDlib\TDDlib.csproj", "{9C8B1581-5EB3-49AB-B245-5C08B95D75FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDAssignment", "TDDAssignment\TDDAssignment.csproj", "{C371A4B5-48A1-40DC-AEF5-6528479B42EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF221B8-C4E0-4814-8B5F-B502924DA9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF221B8-C4E0-4814-8B5F-B502924DA9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF221B8-C4E0-4814-8B5F-B502924DA9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF221B8-C4E0-4814-8B5F-B502924DA9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8B1581-5EB3-49AB-B245-5C08B95D75FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8B1581-5EB3-49AB-B245-5C08B95D75FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8B1581-5EB3-49AB-B245-5C08B95D75FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8B1581-5EB3-49AB-B245-5C08B95D75FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C371A4B5-48A1-40DC-AEF5-6528479B42EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C371A4B5-48A1-40DC-AEF5-6528479B42EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C371A4B5-48A1-40DC-AEF5-6528479B42EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C371A4B5-48A1-40DC-AEF5-6528479B42EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67050C58-4466-4D08-8944-8F97FD44521D}
+	EndGlobalSection
+EndGlobal
